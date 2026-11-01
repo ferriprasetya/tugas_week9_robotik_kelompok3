@@ -7,8 +7,8 @@ Tugas kelompok ROS2: delapan node menggambar angka secara bergantian di `turtles
 | Member | Nama | NRP |
 |---|---|---|
 | 1 | Ferri Adi Prasetya | 5054241019 |
-| 2 | | |
-| 3 | Arya Pratama Rhama Putra| 5054241026 |
+| 2 | Muhammad Farhan| 5054241018|
+| 3 | Arya Pratama Rhama Putra | 5054241026 |
 | 4 | | |
 | 5 | | |
 | 6 | | |
