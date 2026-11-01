@@ -5,8 +5,16 @@ from rclpy.node import Node
 from rclpy.qos import DurabilityPolicy, QoSProfile, ReliabilityPolicy
 from std_msgs.msg import Int32MultiArray
 from std_srvs.srv import Empty
-from turtlesim.msg import Pose
-from turtlesim.srv import SetPen, TeleportAbsolute
+try:
+    # ROS 2 Lyrical memisahkan interface dari package turtlesim.
+    from turtlesim_msgs.msg import Pose
+    from turtlesim_msgs.srv import SetPen, TeleportAbsolute
+except ModuleNotFoundError as exc:
+    if exc.name != 'turtlesim_msgs':
+        raise
+    # ROS 2 Jazzy masih menyediakan interface di package turtlesim.
+    from turtlesim.msg import Pose
+    from turtlesim.srv import SetPen, TeleportAbsolute
 
 N = 8
 DIGIT_SPACING = 1.4
