@@ -1,5 +1,7 @@
 from digit_relay.relay_base import run_member
 
+#Git commit history harus mencerminkan kontribusi masing-masing anggota.
+
 DIGITS = {
     '5': [[(1, 2), (0, 2), (0, 1), (1, 1), (1, 0), (0, 0)]],
     '1': [[(0.2, 1.6), (0.5, 2), (0.5, 0)], [(0.2, 0), (0.8, 0)]],
