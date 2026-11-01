@@ -11,7 +11,7 @@ Tugas kelompok ROS2: delapan node menggambar angka secara bergantian di `turtles
 | 3 | Arya Pratama Rhama Putra | 5054241026 |
 | 4 | Berliana Sarlita Rahajeng | 5054241023 |
 | 5 | Rafli Djanuar Anangsyah | 5054241025 |
-| 6 | | |
+| 6 | Izzah Naufalia Adila | 5054241021 |
 | 7 | | |
 | 8 | | |
 
