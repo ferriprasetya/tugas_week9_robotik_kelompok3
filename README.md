@@ -13,7 +13,7 @@ Tugas kelompok ROS2: delapan node menggambar angka secara bergantian di `turtles
 | 5 | Rafli Djanuar Anangsyah | 5054241025 |
 | 6 | Izzah Naufalia Adila | 5054241021 |
 | 7 | Muhammad Fatih Al Fawwaz | 5054241007 |
-| 8 | | |
+| 8 | Seifeldein Akbar | 5054241032 |
 
 ## Tugas yang diminta
 
