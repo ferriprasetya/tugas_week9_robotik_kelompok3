@@ -1,8 +1,10 @@
 from digit_relay.relay_base import run_member
 
-# TODO Anggota 8: ganti kotak placeholder dengan bentuk digit 8, 1, 6
-BOX = [[(0, 0), (1, 0), (1, 2), (0, 2), (0, 0)]]
-DIGITS = {'8': BOX, '1': BOX, '6': BOX}
+DIGITS = {
+    '8': [[(0, 0), (1, 0), (1, 2), (0, 2), (0, 0)], [(0, 1), (1, 1)]],
+    '1': [[(0.2, 1.6), (0.5, 2), (0.5, 0)], [(0.2, 0), (0.8, 0)]],
+    '6': [[(1, 2), (0, 2), (0, 0), (1, 0), (1, 1), (0, 1)]],
+}
 
 
 def main():
